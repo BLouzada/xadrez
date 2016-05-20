@@ -1460,11 +1460,11 @@ kbd {
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   vertical-align: middle;
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 10px;
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #2199e8;
+  /*background-color: #2199e8;*/
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
