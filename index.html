@@ -7,25 +7,24 @@
     <title>Dica de Xadrez</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
   </head>
   <body>
-	<ul class="menu vertical center-menu">
-	  <li><a class="button" href="#">Novatos</a></li>
-	  <li><a class="button" href="#">Iniciantes</a></li>
+  <div class="full-background">
+	<ul class="menu vertical">
+	
+	  <li><a class="button" href="novato.html"><span data-tooltip aria-haspopup="true" class="has-tip" data-options="show_on:large" title="Regras básicas e como movimentar suas peças">Novatos</span></a></li>
+	  <li><a class="button" href="iniciantes.html"><span data-tooltip aria-haspopup="true" class="has-tip" data-options="show_on:large" title="Sobre três fases de uma partida">Iniciantes</span></a></li>
 	  <li><a class="button" href="#">Jogadores</a></li>
+	  <li><a class="button" href="http://plainchess.timwoelfle.de/">Jogar!</a></li>
 	</ul>
    
-
+	</div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-	<script>
-		$('html, body').css({
-			'overflow': 'hidden',
-			'height': '100%'
-		});
-	</script>
+	<script src="js/index.js"></script>
   </body>
 </html>

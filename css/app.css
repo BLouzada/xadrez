@@ -1,29 +1,26 @@
- body { 
-  background: url(img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-align: center;
+p {
+    text-indent: 10px;
+}
+.button{
+	border: 1px solid white;
 }
 
-.center-menu{
-	position: relative;
+.menu li a{
 	font-family: 'Arimo', sans-serif;
-	margin-top: 10%;
-	margin-left: 35%;
-	margin-right: auto;	
-	width: 30px;
-	text-align: left;
-	
-}
-.center-menu li a{
-	margin-bottom: 2%;
-	text-align: center;
-	font-style: bold;
-	padding-right: 500%;
-	
 	color: black;
 	font-size: 200%;
-	
+	font-weight: bold;
+}
+
+h1 {
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+}
+div > p {
+	font-family: 'Arimo', sans-serif;
+	font-size: 100%;
+}
+.background{
+	background: url(img/bg3.gif);
+	color: white;
 }
